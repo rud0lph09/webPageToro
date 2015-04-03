@@ -1,3 +1,11 @@
+.c-bg{
+    width: 100vw;
+    z-index: -2;
+}
+.bg{
+    widows: 100vw;
+    z-index: -3;
+}
 .titulo{
     font-family: helvetica;
     font-size: 200%;
@@ -41,6 +49,9 @@ head, html{
     margin: 0;
     background-color: black;
     
+    position:sticky;
+    
+    
 }
     .heading{
         margin-top: 0em;
@@ -49,6 +60,7 @@ head, html{
         position: fixed;
         z-index: -1;
         width: 100%;
+        
     }
 
 
@@ -73,6 +85,7 @@ head, html{
         margin-left: 1em;
     background-color: white;
     font-family: 200%;
+    opacity: 0.999;
 }
 
     .perfiles{
@@ -90,6 +103,7 @@ head, html{
         -webkit-flex-wrap: wrap;
         flex-wrap: wrap;
         background-color: white;
+        
     
     }
 
@@ -238,3 +252,11 @@ head, html{
             -webkit-justify-content: center;
             justify-content: center;
         }
+
+.warning{
+    color: white;
+    font-family: helvetica;
+    font-size: 1em;
+    margin-bottom: 0em;
+    
+}
