@@ -1,6 +1,6 @@
 head, html{
     margin: 0;
-    height: 100%;
+    background-color: black
 }
 .heading{
     margin-top: 0px;
@@ -9,7 +9,8 @@ head, html{
 }
 
 .titulo{
-    color: green
+    font-family: helvetica;
+    color: white
 }
 
 .top{
