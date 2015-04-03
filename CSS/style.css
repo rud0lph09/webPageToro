@@ -8,6 +8,11 @@
     font-size: 300%;
     color: black;
 }
+.titulo3{
+    font-family: helvetica;
+    font-size: 170%;
+    color: white
+}
 
 .b-desc{
     font-family: times;
@@ -47,6 +52,8 @@ head, html{
 }
 
     .perfiles{
+        margin-right: 1em;
+        margin-left: 1em;
         display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
         display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
         display: -ms-flexbox;      /* TWEENER - IE 10 */
@@ -99,13 +106,14 @@ head, html{
                 }
 
 .tarjeta-2{
+    
     background-color: white;
     
     
 }
 
 .h-spacer{
-    height: 100px;
+    height: 50px;
 }
 
 .badge{
@@ -139,6 +147,8 @@ head, html{
     }
 
     .projects{
+        margin-right: 1em;
+        margin-left: 1em;
         display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
         display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
         display: -ms-flexbox;      /* TWEENER - IE 10 */
