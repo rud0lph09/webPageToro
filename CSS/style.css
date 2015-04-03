@@ -1,4 +1,23 @@
-.top{
+head, html{
+    margin: 0;
+    height: 100%;
+}
+.heading{
+    margin-top: 0px;
     background-color: black;
-    height: 100vh;
+    height: 80vh;
+}
+
+.titulo{
+    color: green
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    height: 380px;
+    width: 400px;
 }
