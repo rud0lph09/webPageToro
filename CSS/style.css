@@ -10,15 +10,80 @@ head, html{
 
 .titulo{
     font-family: helvetica;
+    font-size: 200%;
     color: white
+}
+.titulo2{
+    font-family: helvetica;
+    font-size: 300%;
+    color: black;
 }
 
 .top{
-    display: flex;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+    -webkit-justify-content: center;
     justify-content: center;
 }
 
 .logo{
-    height: 380px;
-    width: 400px;
+    height: 48vh;
+    width: auto;
+}
+
+.nosotros{
+    background-color: white;
+    font-family: 200%;
+}
+
+.perfiles{
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background-color: white;
+    
+}
+
+.total{
+    width: 39rem;
+}
+
+.rodo{
+     display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+    width: 39rem;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    
+}
+.toño{
+     display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+    width: 39rem;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
+.rodo-pic{
+    height: 300px;
+    width: 300px;
+}
+
+.toño-pic{
+    height: 300px;
+    width: 300px;
 }
